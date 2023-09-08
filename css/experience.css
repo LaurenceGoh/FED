@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+body {
+    background-image: url(../images/bluebackground.jpg);
+}
+
+
+.lifeSP {
+    background-color: peachpuff;
+}
+
+.lastrow {
+   visibility: collapse;
+}
+
+.timetable {
+    /* taken from https://www.pinterest.com/pin/49469295897531677/ */
+    background-image: url(../images/Battle\ Of\ Retention.gif);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

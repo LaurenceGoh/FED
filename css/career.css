@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+body {
+    
+    background: linear-gradient(180deg, rgb(34, 183, 28) 1%, rgba(27,150,33,1) 50%, rgba(76,246,121,1) 100%);
+}
+
+.careercollapse{
+    background-color: rgb(68, 255, 0);
+}
+.softdev,.softeng,.gamedev{
+    display: block;
+    width: 1100px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.careertext {
+    background-color: rgb(96, 220, 58);
+}
+.careerjobs {
+    background-color: chartreuse;
+}
+
+.futureHead {
+    font-family: 'Courier New', Courier, monospace;
+}

@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+
+li > a{
+    border-radius: 10px;
+}
+div > ul > li > a:hover {
+    background-color: rgb(31, 28, 28);
+    transition: 0.6s;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* Social media logos */
+li > a > i {
+    font-size: 30px;
+}

@@ -1,0 +1,152 @@
+<!-- Validated -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    
+    <link rel="stylesheet" href="../css/feedback.css">
+    <link rel="stylesheet" href="../css/navbodyfooter.css">
+    
+    <title>Send your feedback here!</title>
+</head>
+<body>
+ 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <p class="navbar-brand my-auto mx-auto">
+            My personal webpage 
+          </p>
+          <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarLink" aria-controls="navbarLink" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-md-center" id="navbarLink">
+            <ul class="navbar-nav  ms-auto">
+              <li class="nav-item">
+                <a class="nav-link text-end fs-4 mx-3" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-end fs-4 mx-3" href="experience.html">Experience</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-end fs-4 mx-3" href="course.html">Course</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-end fs-4 mx-3" href="career.html">Career</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-end fs-4 mx-3 active" href="feedback.html">Feedback</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <div class="container justify-content-center feedbacksection p-3 mt-5 rounded-4">
+      <h1 class="display-6 fw-bold text-center">Share your feedback here!</h1>
+        <!-- javascript:void(0) required for redirecting -->
+        <form action="javascript:void(0);" class="needs-validation" id="formCheck">
+          <div class="col-12">
+            <div class="row row-cols-md-2 row-cols-1 p-3 justify-content-center">
+							<div class="col-12">
+									
+								<!-- Name -->
+								<div class="form-floating mb-3">
+									<input class="form-control" type="text" id="name" placeholder="John Doe" required>
+                  <label for="name">Name</label>
+                </div>
+
+                <!-- Range -->
+								<div class="form-group mb-3">
+                  <label for="raterange" class="form-label fs-5">On a scale of 1-10, how would you rate my website?</label>
+                  <input type="range" class="form-range" min="0" max="10" id="raterange">
+								</div>
+
+                <div class="form-group mb-3">
+                  <label for="contentrange" class="form-label fs-5">On a scale of 1-10, how would you rate my contents?</label>
+                  <input type="range" class="form-range" min="0" max="10" id="contentrange">
+								</div>
+
+                <!-- Radio -->
+								<div class="form-group">
+									<p>Which page did you like the most?</p>
+									<div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="homeRadio" checked>
+                    <label class="form-check-label" for="homeRadio">
+                      Home
+                    </label>
+                  </div>
+
+									<div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="experienceRadio">
+                    <label class="form-check-label" for="experienceRadio">
+                      Experience
+                    </label>
+                  </div>
+
+									<div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="coursesRadio">
+                  <label class="form-check-label" for="coursesRadio">
+                    Courses
+                  </label>
+                </div>
+									<div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="careerRadio">
+                    <label class="form-check-label" for="careerRadio">
+                      Career
+                    </label>
+                  </div>		
+								</div>
+							</div>
+
+							<div class="col-12">
+								<!-- Email -->
+                <div class="form-floating mb-3">
+                  <input class="form-control" type="email" id="email" placeholder="name@example.com" required>
+                  <label for="email">Email</label>
+                </div>
+                
+                <!-- Text area -->
+								<div class="form-floating">
+                  <textarea class="form-control" placeholder="Leave a comment here" id="feedbackText"></textarea>
+                  <label for="feedbackText">Any other feedback? (Optional)</label>
+                </div>
+
+							</div>
+						</div>
+          </div>
+          <!-- Submit -->
+            <div class="justify-content-end d-flex">
+              <button type="submit" class="btn btn-primary mt-3">Submit</button>
+            </div>
+        </form>
+    </div>
+
+    
+    <div class="container ps-5 pe-5">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+          <span class="text-white">© 2022 Copyright</span>
+        </div>
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3"><a href="mailto:laurencegms12.22@ichat.sp.edu.sg"><i class="bi bi-envelope-fill text-white"></i></a></li>  
+          <li class="ms-3"><a href="tel:+6581246486"><i class="bi bi-telephone-fill text-white"></i></a></li>  
+          <li class="ms-3"><a href="https://www.instagram.com/jerrodkyh2/"><i class="bi bi-instagram text-white"></i></a></li>
+        </ul>
+      </footer>
+    </div>
+
+    
+    <script src="../js/feedback.js" defer></script>
+    <!-- popper js, required for some bootstrap elements -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+</body>
+</html>

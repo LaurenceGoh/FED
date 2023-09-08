@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+
+
+body {
+    background-image: url(../images/redbackground.jpg)
+}
+
+textarea {
+    resize: none;
+}
+
+.feedbacksection {
+    background: linear-gradient(rgb(242, 39, 39),rgb(201, 78, 78));
+    border:2px black solid;
+    font-size: 20px;
+}
+
+#feedbackText {
+    height: 400px;
+}

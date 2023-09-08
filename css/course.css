@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+body {
+    background: linear-gradient(pink,darkorchid);
+}
+
+.coursetext {
+    background-color: darkorchid;
+}
+
+.dittext,.daaatext,.dismtext,.dcitptext {
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.dit {
+    background-color: violet;
+}
+
+
+.daaa {
+    background-color: blueviolet;
+}
+
+
+.dism {
+    background-color:darkorchid ;
+}
+
+
+
+.dcitp {
+    background-color:darkmagenta;
+}
+
+.courselink {
+    text-decoration: none;
+    color: black;
+}
+.courselink:hover {
+    color: gray;
+}

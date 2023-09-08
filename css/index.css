@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+
+
+/* Images */
+img.profile{
+    width: 200px;
+}
+img.code {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Headers */
+h1 > a {
+    font-size: 40px;
+    text-decoration: none;
+    color: black;
+}
+
+h2 {
+    width: 95%;
+    font-size: 40px;
+    padding: 20px;
+    background-color: rgb(255, 234, 0);
+}
+h3 {
+    text-decoration: underline;
+    margin-top: 20px;
+}
+
+article> ul > li {
+    font-size: 20px;
+}
+
+p > a {
+    text-decoration: none;
+    color:black;
+}
+
+.current {
+    font-size: 25px;
+}
+
+.info {
+    background:linear-gradient(rgb(4, 4, 195),blue);
+}
+
